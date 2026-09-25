@@ -2,7 +2,7 @@ services:
   - type: web
     name: photo-gallery-api
     runtime: node
-    plan: starter
+    plan: free
     region: singapore
     rootDir: apps/api
     buildCommand: npm ci && npm run build
@@ -55,7 +55,7 @@ services:
   - type: web
     name: photo-gallery-web
     runtime: node
-    plan: starter
+    plan: free
     region: singapore
     rootDir: apps/web
     buildCommand: npm ci && npm run build
